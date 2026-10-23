@@ -1,0 +1,14 @@
+{
+  "name": "typescript-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "@types/express": "^5.0.6",
+    "express": "^5.3.0",
+    "prisma": "^6.4.1"
+  },
+  "scripts": {
+    "postinstall": "prisma skills sync || exit 0"
+  }
+}
